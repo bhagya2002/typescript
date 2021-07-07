@@ -1,0 +1,7 @@
+three types: let, var, and cost
+
+const: when you dont want the value to be change (constant)
+
+var: when you want to change the value in the future (variable)
+
+let: only available in its own code block (local or global)
