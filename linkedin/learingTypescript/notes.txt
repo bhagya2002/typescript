@@ -1,0 +1,18 @@
+* Typescript
+    - typed superset of JavaScript
+        - large applications
+    - transpiler    
+        - converts JS to TS
+        - compiles TS to JS
+
+* Dynamic Typing
+    - varibales may be assigned (and reassigned) to any type value
+    - field may be added to objects by assigning it to them
+
+* Static Typing
+    - variables are assigned to a specific type and this cannot be changed
+
+    - catch errors at compile time rather than runtime
+    - better tooling (refactoring, autocomplete, and so on)
+    - explicitly express intent
+        - make sure we know what we are writing for
