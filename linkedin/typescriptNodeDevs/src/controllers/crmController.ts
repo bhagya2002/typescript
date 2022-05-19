@@ -20,6 +20,16 @@ export const getContacts = (req, res) => {
       res.send(err);
     }
     res.json(contact);
+
+    // actual data
+    for (let item of contact) {
+      console.log(item);
+    }
+
+    // position of data, * position in the array
+    for (let itemPos in contact) {
+      console.log(itemPos);
+    }
   });
 };
 

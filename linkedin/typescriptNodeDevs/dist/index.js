@@ -5,9 +5,16 @@ var mongoose = require("mongoose");
 var bodyParser = require("body-parser");
 var crmRoutes_1 = require("./src/routes/crmRoutes");
 var app = express();
-var PORT = 3000;
+var PORT = 3000; // number type
+var mlabUser = "linkedintest";
+var mlabPassword = "linkedintest12345";
+// connecting to the database with variables
+var dataConnection = function (user, pass) {
+    return "mongodb://".concat(user, ":").concat(pass, "@linkedin-api.b44pa.mongodb.net/?retryWrites=true&w=majority");
+};
+var database = dataConnection(mlabUser, mlabPassword);
 // mongoose connection
-mongoose.connect("mongodb://linkedintest:linkedintest12345@linkedin-api.b44pa.mongodb.net/?retryWrites=true&w=majority");
+mongoose.connect(database, { useNewUrlParser: true, useUnifiedTopology: true });
 // bodyparser setup
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
