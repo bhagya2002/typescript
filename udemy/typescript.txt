@@ -1,0 +1,13 @@
+* What is Typescript
+    - Typescript is a superset of JavaScript, built with JavaScript
+    - Typescript is a "transpiler", which means it takes TypeScript code and converts it to JavaScript code
+        - browsers cannot understand Typescript code, but they can understand JavaScript code
+    - Typescript is used to avoid compile and runtime errors
+
+* Overview of TypeScript
+    - adds Types
+    - non JavaScript features like Interfaces, Classes, Generics, Modules, etc.
+    - next-gen JavaScript features early
+    - meta-programming features like decorators
+    - lots of configurable options
+    - modern tooling

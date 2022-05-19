@@ -1,0 +1,11 @@
+* "!"
+    - If we know some value WILL exist 
+
+* "?"
+    - If we know some value MAY exist
+
+* [variable]: {type}
+    - specify the type of the variable, cannot be changed later
+
+* "+"
+    - if we know that the value is a number
