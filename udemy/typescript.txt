@@ -3,6 +3,7 @@
     - Typescript is a "transpiler", which means it takes TypeScript code and converts it to JavaScript code
         - browsers cannot understand Typescript code, but they can understand JavaScript code
     - Typescript is used to avoid compile and runtime errors
+    - Static language typing, which means that variables and functions are typed and cannot be reassigned to another type
 
 * Overview of TypeScript
     - adds Types
@@ -11,3 +12,13 @@
     - meta-programming features like decorators
     - lots of configurable options
     - modern tooling
+
+* Types
+    - number, ex. 1, 5.3, -10
+    - string, ex. 'hi', "hi", `hi`
+    - boolean, ex. true, false, null, undefined
+    - array, ex. [1, 2, 3]
+
+    "typeof" operator
+        - returns the type of a variable
+        - ex. typeof 1 === 'number'
