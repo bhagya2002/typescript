@@ -14,11 +14,16 @@
     - modern tooling
 
 * Types
-    - number, ex. 1, 5.3, -10
-    - string, ex. 'hi', "hi", `hi`
-    - boolean, ex. true, false, null, undefined
-    - array, ex. [1, 2, 3]
+    - number: all numbers, ex. 1, 5.3, -10
+    - string: all text values, ex. 'hi', "hi", `hi`
+    - boolean: just two - no truthy or falsy values, ex. true, false, null, undefined
+    - array: flexible or strict, ex. [1, 2, 3]
+    - object: JS object - more specific types, ex. {name: 'hi'}
+    - tuple: fixed length array, ex. [1, 'hi']
+    - enum: fixed set of values, ex. enum Color {Red, Green, Blue}
 
     "typeof" operator
         - returns the type of a variable
         - ex. typeof 1 === 'number'
+
+    - TS types are checked at compliation type and JS at runtime
