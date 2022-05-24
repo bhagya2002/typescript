@@ -21,6 +21,16 @@
     - object: JS object - more specific types, ex. {name: 'hi'}
     - tuple: fixed length array, ex. [1, 'hi']
     - enum: fixed set of values, ex. enum Color {Red, Green, Blue}
+    - void: no return value
+    - null and undefined: null and undefined are the same
+    - Function: a function with a return type
+    - never: function that never returns, nothing is EVER going to be returned (ex. throw new Error())
+
+    - any: can be anything
+    - unknown: can be anything, but we dont know or care
+        - you can swtich types with ANY but not with UNKNOWN
+        - ANY allows the variable to take any type it wants
+        - UKNOWN is only one type but we dont know what type it is specifically
 
     "typeof" operator
         - returns the type of a variable
