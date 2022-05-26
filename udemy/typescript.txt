@@ -47,3 +47,11 @@
     - to watch for any change in the whole project
         - tsc --init  // this will create a tsconfig.json file
         - tsc  -w // this will watch the directory for any changes
+
+* next gen JavaScript
+    - const
+        - const is a variable that cannot be reassigned
+    - let
+        - let is a variable that can be reassigned
+    - var
+        - var is a variable that can be reassigned (NOT USE IT THO)
