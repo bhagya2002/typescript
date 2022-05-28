@@ -55,3 +55,6 @@
         - let is a variable that can be reassigned
     - var
         - var is a variable that can be reassigned (NOT USE IT THO)
+
+* OOP 
+    - 
