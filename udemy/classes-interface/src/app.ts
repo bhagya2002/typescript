@@ -1,20 +1,25 @@
-class Department {
-  name: string = "DEFAULT";
+interface Greetable {
+  name: string;
+  //   age: number;
 
-  //   init work when instance is created
+  greet(phrase: string): void;
+}
+
+class Person implements Greetable {
+  name: string;
+  age = 30;
+
   constructor(n: string) {
     this.name = n;
   }
 
-  describe(this: Department) {
-    console.log("department: " + this.name);
+  greet(phrase: string) {
+    console.log(phrase + " " + this.name);
   }
 }
 
-// instance of Department
-const hr = new Department("HR");
+let user1: Greetable;
 
-hr.describe();
+user1 = new Person("Max");
 
-const accountingCopy = { name: "DUMMY", describe: hr.describe };
-accountingCopy.describe();
+user1.greet("Hi there, I am ");

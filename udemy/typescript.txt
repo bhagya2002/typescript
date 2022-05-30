@@ -28,7 +28,7 @@
 
     - any: can be anything
     - unknown: can be anything, but we dont know or care
-        - you can swtich types with ANY but not with UNKNOWN
+        - you can switch types with ANY but not with UNKNOWN
         - ANY allows the variable to take any type it wants
         - UKNOWN is only one type but we dont know what type it is specifically
 
@@ -36,7 +36,7 @@
         - returns the type of a variable
         - ex. typeof 1 === 'number'
 
-    - TS types are checked at compliation type and JS at runtime
+    - TS types are checked at compilation type and JS at runtime
 
 
 * compiling
@@ -58,3 +58,17 @@
 
 * OOP 
     - 
+
+* Classes
+    * Private
+        - can only be accessed inside of the class
+
+    * Properties
+	- READONLY, does not allow modifications after initialization
+
+    * Inheritance
+	- use properties of another class and expand it
+	- "class [name_of_class] EXTENDS [name-of-old-class]
+
+	- private class makes it not possible to access function/variable outside the class even if its inherent
+	- protected class makes it possible to access functions/variables outside the class only if its inheriting it
