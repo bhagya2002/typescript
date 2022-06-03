@@ -60,6 +60,7 @@ class DataStorage<T> {
 }
 
 const textStorage = new DataStorage<string>();
+// add item to the storage
 textStorage.addItem("Bhagya");
 textStorage.addItem("Patel");
 textStorage.removeItem("Bhagya");
