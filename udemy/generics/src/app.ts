@@ -46,14 +46,17 @@ extractAndConvert({ name: "Bhagya" }, "name");
 class DataStorage<T> {
   private data: T[] = [];
 
+  // add items to the data storage
   addItem(item: T) {
     this.data.push(item);
   }
 
+  // clear the data storage
   removeItem(item: T) {
     this.data.splice(this.data.indexOf(item), 1);
   }
 
+  // get the data storage
   getItems() {
     return [...this.data];
   }
